@@ -1,0 +1,27 @@
+{
+  "name": "amica_theme",
+  "version": "0.0.1",
+  "description": "Amica EV Wordpress Theme by Daniel Frings",
+  "author": "Daniel Frings",
+  "dependencies": {
+    "bootstrap": "4.0.0",
+    "font-awesome": "4.7.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "jquery.easing": "^1.4.1",
+    "magnific-popup": "^1.1.0",
+    "scrollreveal": "3.3.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.2.0",
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^3.2.1",
+    "gulp-uglify": "3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-header": "2.0.1",
+    "gulp-clean-css": "3.9.2"
+  }
+}

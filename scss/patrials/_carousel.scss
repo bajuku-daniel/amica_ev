@@ -1,0 +1,58 @@
+// Styling for the bootstrap  carousel
+.carousel.carousel-fade {
+  .carousel-item {
+    visibility: hidden;
+    display:block;
+    opacity:0;
+    transition: visibility 0.5s, opacity 0.8s ;
+    .carousel-caption {
+      position: absolute;
+      right: 15%;
+      bottom: auto;
+      left: 15%;
+      z-index: 10;
+      padding: 20px 20px;
+      color: $white;
+      text-align: center;
+      background-color: rgba($gray-700, 0.7);
+      display: none;
+      p {
+        display: none;
+      }
+      @media (min-width: $small) {
+        display: block;
+        top: 15%;
+        p {
+          display: none;
+        }
+      }
+      @media (min-width: $medium) {
+        display: block;
+        top: 5%;
+        p {
+          display: block;
+        }
+      }
+      @media (min-width: $extra-large) {
+        top: 25%;
+      }
+      h3:after {
+        display: block;
+        margin: 20px auto;
+        content: '';
+        width: 90px;
+        border-bottom: 4px solid $primary;
+      }
+    }
+  }
+  .carousel-item.active {
+    visibility: visible;
+    opacity: 1!important;
+  }
+  @media (min-width: $medium) {
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+      width: 60px;
+      height: 60px;
+    }
+  }
+}

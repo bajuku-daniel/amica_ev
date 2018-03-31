@@ -1,0 +1,24 @@
+/*
+Theme Name: Amica
+Author: Daniel Frings
+Author URI: https://www.bajuku.de
+Description: Amica Wordpress Theme - Based on the Bootsrap 4 framework and the Understrap Generator. There are several scss files included require a GULP/SASS Compile Process - PLEASE dont edit the CSS files directly  - They will be overwritten on next Gulp compile.
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: bootsrap
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+@import "variables.scss";
+@import "mixins.scss";
+@import "global.scss";
+@import "navbar.scss";
+@import "footer.scss";
+@import "patrials/carousel.scss";
+@import "patrials/content_1.scss";
+@import "patrials/paralax.scss";
+@import "patrials/spacer.scss";
+@import "patrials/content_with_image.scss";
+@import "bootstrap-overrides.scss";

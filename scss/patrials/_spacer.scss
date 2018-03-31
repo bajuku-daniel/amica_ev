@@ -1,0 +1,14 @@
+// Styling for the spacer patrial
+#spacer {
+  padding:40px;
+  .white {
+    background-color:$white;
+  }
+  .red {
+    background-color:$primary;
+  }
+  .gray {
+    background-color:$gray-200;
+  }
+
+}

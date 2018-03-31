@@ -1,0 +1,15 @@
+// Styling for the content patrial
+section {
+  padding:70px 0px;
+  h2 {
+    padding-bottom:30px;
+    text-align:center;
+  }
+}
+section.red {
+  background-color: $primary;
+  color:$white;
+}
+section.gray {
+  background-color: $gray-200;
+}

@@ -1,0 +1,32 @@
+// Styles for the Footer Area
+footer {
+  h2 {
+    font-size:20px;
+    color:$primary;
+    text-align:left!important;
+    margin-bottom:0px;
+    padding-bottom:10px;
+  }
+  ul {
+    padding-left:0px;
+  }
+  li {
+    list-style: none;
+    a {
+      padding:5px 0px;
+      display:block;
+      color:$gray-800;
+    }
+  }
+}
+footer.site-footer{
+  background-color:$gray-200;
+}
+footer.site-footer-second{
+  background-color:$white;
+  color:$gray-800;
+  section {
+    padding:50px 0 0 0;
+  }
+}
+

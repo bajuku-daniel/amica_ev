@@ -1,0 +1,17 @@
+# Ignore .sql files
+*.sql
+
+# ingnore the .htaccess because the live version contains other information than the DEV Accounts
+*.htaccess
+
+# ignore the mittwald.htpasswd
+.htpasswd.mittwald
+
+#ignore the bad mac os x .DS_store files..
+.DS_Store
+*.DS_Store
+
+# ignore the php storm project files
+.idea
+# ignore the npm node module directory
+node_modules

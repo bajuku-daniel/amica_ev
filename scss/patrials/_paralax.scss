@@ -1,0 +1,18 @@
+// Styling for the paralax patrial
+#paralax {
+  min-height:200px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .paralax-inner{
+    padding: 30px 0px;
+    font-weight: 200;
+    color:$white;
+    text-shadow: 0px 0px 7px #000000;
+    text-transform:upppercase;
+    text-align:center;
+
+  }
+}

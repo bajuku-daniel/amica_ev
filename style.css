@@ -1,0 +1,309 @@
+/*
+Theme Name: Amica
+Author: Daniel Frings
+Author URI: https://www.bajuku.de
+Description: Amica Wordpress Theme - Based on the Bootsrap 4 framework and the Understrap Generator. There are several scss files included require a GULP/SASS Compile Process - PLEASE dont edit the CSS files directly  - They will be overwritten on next Gulp compile.
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: bootsrap
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+body,
+html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  font-family: 'Arimo', sans-serif; }
+
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #b72837; }
+
+hr.light {
+  border-color: #fff; }
+
+a {
+  color: #b72837;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s; }
+  a:hover {
+    color: #b72837; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Arimo', sans-serif; }
+
+.bg-primary {
+  background-color: #b72837 !important; }
+
+.bg-dark {
+  background-color: #212529 !important; }
+
+.text-faded {
+  color: rgba(255, 255, 255, 0.7); }
+
+section {
+  padding: 8rem 0; }
+
+.section-heading {
+  margin-top: 0; }
+
+::-moz-selection {
+  color: #fff;
+  background: #212529;
+  text-shadow: none; }
+
+::selection {
+  color: #fff;
+  background: #212529;
+  text-shadow: none; }
+
+img::selection {
+  color: #fff;
+  background: transparent; }
+
+img::-moz-selection {
+  color: #fff;
+  background: transparent; }
+
+#mainNav {
+  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+  background-color: #fff;
+  padding: 25px 0;
+  font-family: 'Arimo', sans-serif;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s; }
+  #mainNav .navbar-brand {
+    color: #b72837;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    line-height: unset; }
+    #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+      color: #b72837; }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    font-size: 17px;
+    font-weight: 500;
+    color: #212529; }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+      color: #b72837; }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+      color: #b72837 !important;
+      background-color: transparent; }
+      #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
+      #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+        background-color: transparent; }
+  @media (min-width: 992px) {
+    #mainNav {
+      border-color: transparent;
+      background-color: transparent; }
+      #mainNav .navbar-brand {
+        color: #b72837;
+        font-size: 50px;
+        font-weight: 500;
+        letter-spacing: 0.1px;
+        line-height: unset;
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        transition: all 0.2s; }
+        #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+          color: #a22331; }
+      #mainNav .navbar-nav > li.nav-item {
+        border-left: 1px solid #b72837; }
+      #mainNav .navbar-nav > li.nav-item > a.nav-link {
+        padding: 15px 22px; }
+      #mainNav .navbar-nav > li.nav-item > a.nav-link,
+      #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+        color: #495057;
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        transition: all 0.2s; }
+        #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+        #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+          color: #b72837; } }
+
+#header_menu {
+  background-color: #e9ecef;
+  padding: 0px;
+  padding-top: 4px;
+  height: 40px;
+  line-height: 17px; }
+  #header_menu .row {
+    float: right; }
+  #header_menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; }
+    #header_menu ul li {
+      float: left;
+      padding-right: 20px;
+      display: block;
+      position: relative;
+      text-transform: uppercase; }
+      #header_menu ul li a {
+        font-family: 'Arimo', sans-serif;
+        font-size: 11px;
+        color: #343a40; }
+  #header_menu .menu-item-object-page, #header_menu .menu-item-object-custom {
+    margin-top: 4px;
+    display: none; }
+    #header_menu .menu-item-object-page a, #header_menu .menu-item-object-custom a {
+      padding-left: 10px;
+      margin-right: 5px; }
+    @media (min-width: 768px) {
+      #header_menu .menu-item-object-page, #header_menu .menu-item-object-custom {
+        display: block; } }
+  #header_menu .lang-item {
+    display: block; }
+  #header_menu .menu-item-236 a {
+    margin-right: 30px; }
+
+footer h2 {
+  font-size: 20px;
+  color: #b72837;
+  text-align: left !important;
+  margin-bottom: 0px;
+  padding-bottom: 10px; }
+
+footer ul {
+  padding-left: 0px; }
+
+footer li {
+  list-style: none; }
+  footer li a {
+    padding: 5px 0px;
+    display: block;
+    color: #343a40; }
+
+footer.site-footer {
+  background-color: #e9ecef; }
+
+footer.site-footer-second {
+  background-color: #fff;
+  color: #343a40; }
+  footer.site-footer-second section {
+    padding: 50px 0 0 0; }
+
+.carousel.carousel-fade .carousel-item {
+  visibility: hidden;
+  display: block;
+  opacity: 0;
+  transition: visibility 0.5s, opacity 0.8s; }
+  .carousel.carousel-fade .carousel-item .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: auto;
+    left: 15%;
+    z-index: 10;
+    padding: 20px 20px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(73, 80, 87, 0.7);
+    display: none; }
+    .carousel.carousel-fade .carousel-item .carousel-caption p {
+      display: none; }
+    @media (min-width: 576px) {
+      .carousel.carousel-fade .carousel-item .carousel-caption {
+        display: block;
+        top: 15%; }
+        .carousel.carousel-fade .carousel-item .carousel-caption p {
+          display: none; } }
+    @media (min-width: 768px) {
+      .carousel.carousel-fade .carousel-item .carousel-caption {
+        display: block;
+        top: 5%; }
+        .carousel.carousel-fade .carousel-item .carousel-caption p {
+          display: block; } }
+    @media (min-width: 1200px) {
+      .carousel.carousel-fade .carousel-item .carousel-caption {
+        top: 25%; } }
+    .carousel.carousel-fade .carousel-item .carousel-caption h3:after {
+      display: block;
+      margin: 20px auto;
+      content: '';
+      width: 90px;
+      border-bottom: 4px solid #b72837; }
+
+.carousel.carousel-fade .carousel-item.active {
+  visibility: visible;
+  opacity: 1 !important; }
+
+@media (min-width: 768px) {
+  .carousel.carousel-fade .carousel-control-next-icon, .carousel.carousel-fade .carousel-control-prev-icon {
+    width: 60px;
+    height: 60px; } }
+
+section {
+  padding: 70px 0px; }
+  section h2 {
+    padding-bottom: 30px;
+    text-align: center; }
+
+section.red {
+  background-color: #b72837;
+  color: #fff; }
+
+section.gray {
+  background-color: #e9ecef; }
+
+#paralax {
+  min-height: 200px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #paralax .paralax-inner {
+    padding: 30px 0px;
+    font-weight: 200;
+    color: #fff;
+    text-shadow: 0px 0px 7px #000000;
+    text-transform: upppercase;
+    text-align: center; }
+
+#spacer {
+  padding: 40px; }
+  #spacer .white {
+    background-color: #fff; }
+  #spacer .red {
+    background-color: #b72837; }
+  #spacer .gray {
+    background-color: #e9ecef; }
+
+.text-primary {
+  color: #b72837 !important; }
+
+.btn {
+  font-weight: 700;
+  border: none;
+  border-radius: 300px;
+  font-family: 'Arimo', sans-serif; }
+
+.btn-xl {
+  padding: 1rem 2rem; }
+
+.btn-primary {
+  background-color: #b72837;
+  border-color: #b72837; }
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    color: #fff;
+    background-color: #a22331 !important; }
+  .btn-primary:active, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }
+
+/*# sourceMappingURL=maps/style.css.map */
