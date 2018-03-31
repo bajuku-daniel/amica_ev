@@ -1,8 +1,12 @@
 # Amica e.V. Wordpress Theme
-Wordpress theme by Daniel Frings.
+A Wordpress theme by Daniel Frings.
+
+
 
 ![amica screenshot]( https://github.com/bajuku-daniel/amica_ev/blob/master/screenshot.png )
 
+
+## Short Description
 Bootsrap4, SCSS, GULP & NPM. Please dont edit the CSS files directly - it will be overwritten by the gulp scss compile routine.
 
 ## Install and Compile the Theme
